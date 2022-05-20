@@ -63,16 +63,27 @@ li {
 }
 
 .header__menu {
-    max-width: 706.91px;
-    max-height: 44px;
-    margin-top: 0.5px 0px;
-    padding: 8.5px;
+    
 }
+
 .menu {
 
 }
 .menu__list {
     display: flex;
+    align-items: center;
+}
+
+.block__item {
+    display: flex;
+}
+
+.first__double {
+    display: flex;
+}
+
+.second__double {
+
 }
 
 .menu__item {
