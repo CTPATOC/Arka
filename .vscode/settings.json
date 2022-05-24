@@ -1,3 +1,4 @@
 {
-    "sass.disableAutoIndent": true
+    "sass.disableAutoIndent": true,
+    "ecsstractor_port.add_comment": false
 }
