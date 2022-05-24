@@ -19,6 +19,7 @@ li {
 }
 img {
     vertical-align: top;
+    object-fit: cover;
 }
 h1,
 h2,
@@ -45,9 +46,11 @@ body {
     overflow: hidden;
 }
 .__container{
-    max-width: 1200px;
-    margin: 0px auto;
-    padding: 0px 15px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
     box-sizing: content-box;
 }
 /* -------Head style---------------------------------*/
@@ -57,22 +60,35 @@ body {
     top: 0%;
     z-index: 50;
 }
-.header__container {
-    position: relative;
-    max-width: 1400px;
-    display: flex;
-    min-height: 61px;
-    align-items: center;
+@media (min-width: 500px) {
+    .header__container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        min-height: 61px;
+        align-items: center;
+        padding: 10px;
+        box-sizing: content-box;
+        border-bottom: 2px solid silver;
+    }
+}
+@media screen {
+    .header__container {
+        min-width: 70px
+    }
 }
 .header__logo {
+    margin-right: 1rem;
     height: 24px;
     left: 1.67%;
     right: 92.43%;
     top: 19px;
 }
 .header__menu {
-    display: flex;
-    margin: 8.5px 221.67px 8.5px 221.67px;
+    max-width: 1200px;
+    margin: 8.5px 222px 8.5px 222px;
     height: 44px;
     padding: 13px 0px 13px 0px;
 }
@@ -83,8 +99,9 @@ body {
     display: flex;
 }
 .menu__item {
-    flex-wrap: wrap;
-    /* display: flex; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
 }
 .menu__item:not(:last-child) {
     margin: 0px 50px 0px 0px;
@@ -93,16 +110,17 @@ body {
     color: #011F3A;
     line-height: 129%;
     text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 #header__end {
     display: flex;
+    justify-content: stretch;
+    flex-wrap: nowrap;
     height: 44px;
-    max-width: 157px;
-    left: 87.45%;
-    right: 1.67%;
-    top: 8.5px;
-    background-color: rgb(113, 230, 230);
-    align-items: center;
+    max-width: 160px;
+    padding: 13px 0px 13px 0px;
 }
 #basket {
     margin-left: 30px;
@@ -112,4 +130,7 @@ body {
 }
 #arrow {
     margin-left: 10px;
+}
+#account {
+    text-align: center;
 }
