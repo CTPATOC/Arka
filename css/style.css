@@ -17,6 +17,15 @@ ol,
 li {
     list-style: none;
 }
+._ibg {
+    position: relative;
+}
+._ibg img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    object-fit: cover;
+}
 img {
     vertical-align: top;
     object-fit: cover;
@@ -44,9 +53,11 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .__container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
@@ -55,6 +66,7 @@ body {
 }
 /* -------Head style---------------------------------*/
 .header {
+    /* position: absolute; */
     width: calc(100% - 20px);
     left: 0%;
     top: 0%;
@@ -71,7 +83,7 @@ body {
         align-items: center;
         padding: 10px;
         box-sizing: content-box;
-        border-bottom: 2px solid silver;
+        background-color: #FFFFFF;
     }
 }
 @media screen {
@@ -133,4 +145,81 @@ body {
 }
 #account {
     text-align: center;
+}
+/* -----------Page style---------------------------- */
+.page {
+    display: flex;
+    flex: 1 1 auto;
+}
+.page__main-block {
+    width: 100%;
+    background-color: #F2AE4D;
+    min-height: 690px;
+}
+/* -----------Main style---------------------------- */
+
+.main-block {
+
+}
+.main-block__container {
+    
+}
+.__container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: content-box;
+}
+.main-block__body {
+    z-index: 2;
+    margin: 144.5px 316px 205.5px 0px;
+}
+.main-block__title {
+    font-size: 48px;
+    line-height: calc(56 / 48 * 100%);
+    font-weight: 400;
+    color: #011F3A;
+    max-width: 480px;
+    margin: 20.5px 20px 33px 0px;
+}
+.main-block__text {
+    color: #011F3A;
+    line-height: calc(24 / 15 * 100%);
+    max-width: 277px;
+}
+.main-block__button {
+    display: flex;
+    max-width: 228px;
+    min-height: 56px;
+    background-color: #3D5675;
+    border-radius: 44px;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 272px 0px 0px;
+}
+.main-block__button:hover {
+    background-color: #6692c7;
+}
+.main-block__button:active {
+    box-shadow: 2px 3px #0d61c7;
+}
+.startButton {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    color: #FFFFFF;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+}
+.startButton:hover {
+    text-decoration: underline;
+}
+.main-block__image {
+    position: absolute;
+    left: 65%;
+    right: 0%;
+    top: 148px;
 }
