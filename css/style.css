@@ -33,6 +33,9 @@ img {
 .bg-white {
     background-color: #FFFFFF;
 }
+.bg-green {
+    background-color: #72BDA3;
+}
 h1,
 h2,
 h3,
@@ -183,6 +186,8 @@ body {
     background-color: #FFFFFF;
 }
 .page__examples {
+}
+.page__order {
 }
 /* -----------Main style---------------------------- */
 
@@ -339,7 +344,7 @@ body {
 }
 .link-brows {
     display: flex;
-    max-width: 247px;
+    width: 247px;
     min-height: 44px;
     background-color: #3D5675;
     border-radius: 44px;
@@ -357,6 +362,25 @@ body {
     text-transform: uppercase;
 }
 .grid-examples {
+    max-height: 864px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2px
+}
+.item-example__title {
+    margin-top: 24px;
+    margin-bottom: 2px;
+    margin-left: 25px;
+    color: #011F3A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.36px;
+}
+.no-price{
+    margin-bottom: 8px;
 }
 .grid-item {
 }
@@ -364,30 +388,86 @@ body {
 }
 .item-example__img {
 }
-.item-example__title {
-}
 .item-example__text {
+    display: flex;
+    max-width: 350px;
+    min-height: 72px;
+    margin: 0px 25px 4px 25px;
 }
 .discribe {
+    margin-top: 6px;
+    margin-right: 60px;
+    width: 209px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #777777;
 }
 .start-at {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: right;
+    color: #A1A1A1;
+    padding-top: 3.8px;
 }
 .price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: right;
+    color: #A1A1A1;
 }
 .grid-item-02 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #777777;
 }
-.grid-item-03 {
+#CustBoxes {
+    margin-right: 183px;
+}
+.grid-item-03{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #777777;
+}
+#CustCushion {
+    margin-right: 160px;
 }
 .grid-item-04 {
 }
-.discibe {
+.discribe {
+    margin-top: 6px;
+    margin-right: 60px;
+    width: 209px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #777777;
 }
 .grid-item-05 {
 }
 .grid-item-06 {
 }
+#perfect {
+    margin-bottom: 25px;
+}
 .invitation-shop {
-    max-width: 386px;
+    width: 386px; 
     min-height: 44px;
     display: flex;
     flex: 1 1 auto;
@@ -395,12 +475,115 @@ body {
     margin: 46px 0px 50px 407px;
 }
 .invitation-shop__text {
+    margin: 10px 16px 10px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 160%;
+    color: #A1A1A1;
 }
 .invitation-shopButt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 44px;
     border-radius: 44px;
     background-color: #FFFFFF;
     width: 158px;
 }
 .shop-stock__link {
     color: #3D5675;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    letter-spacing: 1.96px;
+}
+/* -----------Order style---------------------------- */
+.order {
+}
+.order__container {
+}
+.orderBlock {
+    display: flex;
+    flex-direction: column;
+    height: 774px;
+}
+.bg-green {
+}
+.title-order {
+    margin: 88px 215px 46px 215px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 128%;
+    text-align: center;
+    color: #011F3A;
+}
+.grid-orders {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid-order {
+    margin-right: 50px;
+    margin-left: 50px;
+    max-width: 300px;
+    min-height: 391px;
+}
+.item-1 {
+}
+.item-order__img {
+}
+.item-order__text {
+    max-width: 200px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 0px 50px;
+    justify-content: center;
+}
+.item__title {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128%;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #011F3A;
+}
+.item__discribe {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    color: #3D5675;
+}
+.item-2 {
+}
+.item-3 {
+}
+.buttonBlock {
+    margin: 76px 0px 88px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.orderButton {
+    display: flex;
+    width: 220px;
+    height: 44px;
+    background-color: #3D5675;
+    justify-content: center;
+    align-items: center;
+    border-radius: 44px;
+}
+.startButton {
 }
