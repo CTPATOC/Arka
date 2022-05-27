@@ -504,10 +504,13 @@ body {
 }
 /* -----------Order style---------------------------- */
 .order {
+    min-height: 914px;
 }
 .order__container {
 }
 .orderBlock {
+    margin-top: 70px;
+    margin-bottom: 70px;
     display: flex;
     flex-direction: column;
     height: 774px;
