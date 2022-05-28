@@ -740,3 +740,63 @@ body {
     text-transform: uppercase;
     color: #3D5675;
 }
+/* --------------Feedback`s style----------------- */
+.page__feedbacks {
+}
+.feedbacks {
+}
+.feedback__container {
+}
+.page-feedback-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: calc(38 / 32 * 100%);
+    text-align: center;
+    color: #011F3A;
+}
+.grid-feedback {
+}
+.brandsBlock {
+}
+.googleBlock {
+}
+.logo-brend {
+}
+.estimateBlock {
+}
+.star {
+}
+.number {
+}
+.shopifyBlock {
+}
+.grid-feedback__item {
+}
+.fb-item-1 {
+}
+.itemBlock__img {
+}
+.itemBlock__story {
+}
+.story-text {
+}
+.authorBlock {
+}
+.bioBlock {
+}
+.avatar {
+}
+.name {
+}
+.nikname {
+}
+.story-link {
+}
+.link-text {
+}
+.fb-item-2 {
+}
+.fb-item-3 {
+}
