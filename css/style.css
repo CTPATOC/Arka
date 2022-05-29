@@ -744,10 +744,12 @@ body {
 .page__feedbacks {
 }
 .feedbacks {
+    height: 1548px;
 }
 .feedback__container {
 }
 .page-feedback-title {
+    margin-top: 88px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -757,46 +759,124 @@ body {
     color: #011F3A;
 }
 .grid-feedback {
+    display: grid;
+    margin: 59px auto 57px auto;
+    height: 1306px;
+    grid-template-rows: 1 1 auto;
 }
 .brandsBlock {
+    display: flex;
+    flex: 1 1 auto;
+}
+.betweenBlock {
+    margin-top: 122px;
+    margin-bottom: 122px;
+    height: 70px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-radius: 0px;
 }
 .googleBlock {
+    margin: 100px 182px 100px 190px;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+    width: 208px;
 }
 .logo-brend {
 }
 .estimateBlock {
+    display: flex;
+    margin: 20px 43px 0px 43px;
+    width: 160px;
+    align-items: center;
 }
 .star {
 }
 .number {
+    margin-left: 4px;
 }
 .shopifyBlock {
+    margin: 100px 190px 100px 182px;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+    width: 246px;
 }
 .grid-feedback__item {
+    display: flex;
+    flex: 1 1 auto;
+    height: 294px;
+    column-gap: 106px;
 }
-.fb-item-1 {
+.grid-feedback__item:not(:last-child) {
+    margin-bottom: 55px;
+}
+.fb-item-1 {    
 }
 .itemBlock__img {
+    display: flex;
 }
 .itemBlock__story {
+    max-width: 400px;
+    height: 169px;
 }
 .story-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 133%;
+    color: #011F3A;
 }
 .authorBlock {
+    display: flex;
+    column-gap: 18px;
+    align-content: center;
 }
 .bioBlock {
+    display: flex;
+    max-width: 222px;
 }
 .avatar {
 }
 .name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(22 / 18 * 100%);
+    color: #011F3A;
 }
 .nikname {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #A1A1A1;
 }
 .story-link {
+    display: flex;
+    background: #F2F2F2;
+    border-radius: 44px;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 160px;
 }
 .link-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: 1.96px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3D5675;
 }
 .fb-item-2 {
+    flex-direction: row-reverse;
 }
 .fb-item-3 {
 }
