@@ -185,8 +185,6 @@ body {
     max-height: 690px;
 }
 .page__certifications {
-    /* display: flex;
-    flex: 1 1 auto; */
     max-height: 120px;
     width: 100%;
     background-color: #FFFFFF;
@@ -394,6 +392,8 @@ body {
     margin-bottom: 8px;
 }
 .grid-item {
+    max-width: 400px;
+    height: 432px;
 }
 .grid-item-01 {
 }
@@ -402,13 +402,14 @@ body {
 .item-example__text {
     display: flex;
     max-width: 350px;
-    min-height: 72px;
+    height: 52px;
     margin: 0px 25px 4px 25px;
 }
 .discribe {
-    margin-top: 6px;
+    padding-top: 6px;
     margin-right: 60px;
     width: 209px;
+    height: 52px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -453,6 +454,8 @@ body {
     font-size: 15px;
     line-height: 160%;
     color: #777777;
+}
+.grid-item-06 {
 }
 #CustCushion {
     margin-right: 160px;
